@@ -21,7 +21,7 @@ First, created SNS topic for the billing alarm using budget-notification.json an
 
 Then, created the billing alarm using alarm-config.jsonn and verified using the console.
 
-![Budget alarm json](assets/alarm_config_proof.png)
+![Budget alarm json](assets/alarm_config_proof1.png)
 
 ### Conceptual diagram /napkin diagram
 
