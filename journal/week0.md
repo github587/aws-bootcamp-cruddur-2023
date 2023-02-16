@@ -14,7 +14,7 @@ verified that budget - Example Tag Budget is created on the console for the user
 ![Budget alarm json](assets/budget_json_proof1.png)
 
 Screen from console after the AWS create budget command is run.
-![Budget console proof](assets/budget_proof1.png)
+![Budget console proof](assets/budget_proof_1.png)
 
 ### Created billing alarm using AWS CLI on gitpod
 
