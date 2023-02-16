@@ -32,7 +32,7 @@ Then, created the billing alarm using alarm-config.jsonn and verified using the 
 
 Verified on the AWS adminconsole that the cloud watch alarm is created.
 
-![Daily Estimated Charges CW Alarm](assets/cloudwatch_alarm_proof1.png.png)
+![Daily Estimated Charges CW Alarm](assets/cloudwatch_alarm_proof1.png)
 ### Conceptual diagram /napkin diagram
 
 
