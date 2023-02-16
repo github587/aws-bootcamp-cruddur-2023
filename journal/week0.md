@@ -13,16 +13,26 @@ Setup user credentials and exported them as gitpod env variables.
 verified that budget - Example Tag Budget is created on the console for the user.
 ![Budget alarm json](assets/budget_json_proof1.png)
 
+Screen from console after the AWS create budget command is run.
+![Budget console proof](assets/budget_proof1.png)
+
 ### Created billing alarm using AWS CLI on gitpod
 
 First, created SNS topic for the billing alarm using budget-notification.json and verified using the console
 
-![Budget alarm json](assets/budget_notication_json_proof.png)
+![SNS topic json](assets/budget_notication_json_proof.png)
+
+verified that the SNS topic got created on the AWS admin console
+
+![SNS topic AWS console](assets/billing_alarm_proof.png)
 
 Then, created the billing alarm using alarm-config.jsonn and verified using the console.
 
-![Budget alarm json](assets/alarm_config_proof1.png)
+![Billing alarm json](assets/alarm_config_proof1.png)
 
+Verified on the AWS adminconsole that the cloud watch alarm is created.
+
+![Daily Estimated Charges CW Alarm](assets/cloudwatch_alarm_proof1.png.png)
 ### Conceptual diagram /napkin diagram
 
 
