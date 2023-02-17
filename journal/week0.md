@@ -42,11 +42,13 @@ Then, created the billing alarm using alarm-config.jsonn and verified using the 
 Verified on the AWS adminconsole that the cloud watch alarm is created.
 
 ![Daily Estimated Charges CW Alarm](assets/cloudwatch_alarm_proof1.png)
-### Conceptual diagram /napkin diagram
+
 
 
 ## HOMEWORK CHALLENGES
 
+### Recreate Logical Architectual Diagram in Lucid Charts
+[Logical_architecture_diagram](https://lucid.app/lucidchart/7844b4af-be10-48fb-9f74-15f41e85f10d/edit?viewport_loc=-2%2C-225%2C1707%2C811%2C0_0&invitationId=inv_0fbbfb56-5f44-4966-84c0-a3191f6633c4)
 
 
 
