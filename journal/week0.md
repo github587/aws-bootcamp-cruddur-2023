@@ -2,6 +2,15 @@
 
 ## REQUIRED HOMEWORK
 
+### 	Recreate Conceptual Diagram in Lucid Charts or on a Napkin
+Created the conceptual diagram s discussed in class using LucidChart. Link and image shared below.
+- Link to lucidchart for my diagram:
+[Conceptual Diagram](https://lucid.app/lucidchart/d0a234d5-108a-4971-ad6b-984141f62fc1/edit?viewport_loc=-10%2C15%2C1707%2C733%2C0_0&invitationId=inv_131b43ef-7fb5-4136-acd8-dfd3cf764f71)
+ 
+- Conceptual diagram image below:
+ ![Conceptual Image](assets/conceptual_diagram_proof_week0.png)
+
+
 ### Install  and verify AWS CLI
 Added task to download and install aws cli to gitpod.yml file.
 Verified that aws is installed as the workspace opens each time on gitpod by running either aws --version or aws sts get-caller-identity.
