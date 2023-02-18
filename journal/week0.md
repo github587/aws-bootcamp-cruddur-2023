@@ -69,3 +69,6 @@ Performed this to watch for EC2 issue. Code snippet and rule setup on teh AWS co
 ### CI /CD pipeline architcture diagram for cruddur codebase
 
 ![CICD Pipeline_image](assets/ci_cd_week0_proof.png)
+
+Link to CI/CD pipeline attempt using Lucid chart
+[CICD Pipeline](https://lucid.app/lucidchart/66f8a505-ea40-4031-8809-1a66f645972b/edit?viewport_loc=-254%2C-14%2C1707%2C811%2C0_0&invitationId=inv_e6f7700d-99c3-4294-9719-c29fee1e37ee)
