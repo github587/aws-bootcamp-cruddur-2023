@@ -50,6 +50,17 @@ Verified on the AWS adminconsole that the cloud watch alarm is created.
 ### Recreate Logical Architectual Diagram in Lucid Charts
 [Logical_architecture_diagram](https://lucid.app/lucidchart/7844b4af-be10-48fb-9f74-15f41e85f10d/edit?viewport_loc=-2%2C-225%2C1707%2C811%2C0_0&invitationId=inv_0fbbfb56-5f44-4966-84c0-a3191f6633c4)
 
+![Logical_diagram_image](assets/logical_diagram_week0_proof.png)
 
-
-
+### Add an eventbridge rule to hookup AWS healthdashboard to SNS.
+Performed this to watch for EC2 issue. Code snippet and rule setup on teh AWS console image as below:
+```
+{
+  "source": ["aws.health"],
+  "detail-type": ["AWS Health Event"],
+  "detail": {
+    "service": ["EC2"],
+    "eventTypeCategory": ["issue"]
+  }
+}
+```
