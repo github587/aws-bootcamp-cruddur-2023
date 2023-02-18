@@ -64,3 +64,8 @@ Performed this to watch for EC2 issue. Code snippet and rule setup on teh AWS co
   }
 }
 ```
+![EventBridge_concole_image](assets/eventbridge_week0_proof.png)
+
+### CI /CD pipeline architcture diagram for cruddur codebase
+
+![CICD Pipeline_image](assets/ci_cd_week0_proof.png)
