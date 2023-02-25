@@ -50,7 +50,14 @@ Tried set FRONT_END_URL and BACKEND_URL and unset them
 
 ### added volumes that map the local code to the container for hot deploy 
 Verify the mounted volumes unde the volumes tab of dockerfile extension
-```volumes:
+```
+volumes:
   db:
-    driver: local```
+    driver: local
+```
+### OPEN API documentaiton
+1. learnt that openapi can help produce api documnetaiton
+2. added notification section to openapi.yml to see the notification api appear in the doc.
 
+### frontend and backend-flask module and notification changes
+1. 
