@@ -79,5 +79,5 @@ CMD ["python", "execute_command.py"]
 ```
 3. Built the backend_flask image with docker build and ran the container with docker run commands.
 Output as folows to bring falsk up and running.
-![Concole output flask](/assets/external_command_docker_flask_run_proof.png)
+![Console output flask](assets/external_command_docker_flask_run_proof.png)
 
