@@ -81,3 +81,13 @@ CMD ["python", "execute_command.py"]
 Output as folows to bring falsk up and running.
 ![Console output flask](assets/external_command_docker_flask_run_proof.png)
 
+### Push and tag a image to DockerHub (they have a free tier)
+1. login to dockerhub with ``` docker login ``` command
+2. Used Docker tag command to add a new tag to an exisitng docker image using
+``` docker tag backend-flask:latest ls587/backend-flask:v1 ```
+3. Pusjed the image to dockerhub using the command
+``` docker push ls587/backend-flask:v1 ```
+4. verified teh image on dockerhub UI as below:
+![docker hub flask](assets/docker_hub_proof.png)
+![console output for dockerhub image push](assets/copy_an _image_from_local_to_hub.png)
+
