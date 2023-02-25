@@ -1,4 +1,4 @@
-# Week 1 — App Conback end containertainerization
+# Week 1 — App containertainerization
 
 ## backend flask containerization
 Installed docker plugin if not available in VSCODE
