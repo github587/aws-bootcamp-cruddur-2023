@@ -90,7 +90,10 @@ Output as folows to bring falsk up and running.
 4. verified teh image on dockerhub UI as below:
 ![docker hub flask](assets/docker_hub_proof.png)
 
+Console output:
 ![local_to_docker](assets/local_dockerhub_image.png)
+
+
 
 
 
