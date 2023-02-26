@@ -89,5 +89,6 @@ Output as folows to bring falsk up and running.
 ``` docker push ls587/backend-flask:v1 ```
 4. verified teh image on dockerhub UI as below:
 ![docker hub flask](assets/docker_hub_proof.png)
-![console output for dockerhub image push](assets/copy_an _image_from_local_to_hub.png)
+
+![console output](assets/copy_an _image_from_local_to_hub.png)
 
