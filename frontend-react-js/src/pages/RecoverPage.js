@@ -14,15 +14,24 @@ export default function RecoverPage() {
 
   const onsubmit_send_code = async (event) => {
     event.preventDefault();
-    console.log('onsubmit_send_code')
+    setCognitoErrors('')
+    Auth.forgotPassword(username)
+    .then((data) => setFormState('confirm_code') )
+    .catch((err) => setCognitoErrors(err.message) );
     return false
   }
   const onsubmit_confirm_code = async (event) => {
     event.preventDefault();
-    console.log('onsubmit_confirm_code')
+    setErrors('')
+    if (password == passwordAgain){
+      Auth.forgotPasswordSubmit(username, code, password)
+      .then((data) => setFormState('success'))
+      .catch((err) => setCognitoErrors(err.message) );
+    } else {
+      setErrors('Passwords do not match')
+    }
     return false
   }
-
   const username_onchange = (event) => {
     setUsername(event.target.value);
   }
