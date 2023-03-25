@@ -143,8 +143,8 @@ impotrt rollbasr to app.py, add a method to initialize rollbar with the rollbart
 add an endpoint called test to app.py  to test rollbar.
 
 
-  ![rollbar_error_return_issue]("/assets/rollbar_error_return_issue_proof.png")
-  ![Rollbar_screen_proof]("rollbar_screen_proof/assets/.png")
+  ![rollbar_error_return_issue](/assets/rollbar_error_return_issue_proof.png)
+  ![Rollbar_screen_proof](rollbar_screen_proof/assets/.png)
 
 
 
