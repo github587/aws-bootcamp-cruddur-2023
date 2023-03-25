@@ -99,8 +99,10 @@ Install aws sdk
 (b) on the terminal, cd to backend-flask and run
 pip install -r requirements.txt
 
-  ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
-  ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+  ![xray_proof](assets/xray_proof_aws_console.png)
+  ![week2-xray-group-proof](assets/week2-xray-group-proof.png)
+    ![x-ray-smplingrule-proof_CLI](assets/x-ray-smplingrule-proof_CLI.png)
+    ![xray_group_proof_screen](assets/xray_group_proof_screen.png)
 
 
 ## CLOUDWATCH
@@ -123,6 +125,7 @@ In homeactiivites.py, modify the run call to take in logger as a parameter and l
 5. Login to Cloidwatch logs, go to log groups, select "Cruddur" and then make sure the log traces containt the log messges added to the code.
 
 
+![CW_logs_proof](assets/CW_logs_proof.png)
 
 
 ## ROLLBAR
@@ -143,8 +146,8 @@ impotrt rollbasr to app.py, add a method to initialize rollbar with the rollbart
 add an endpoint called test to app.py  to test rollbar.
 
 
-  ![rollbar_error_return_issue](/assets/rollbar_error_return_issue_proof.png)
-  ![Rollbar_screen_proof](/assets/rollbar_screen_proof.png)
+  ![rollbar_error_return_issue](assets/rollbar_error_return_issue_proof.png)
+  ![Rollbar_screen_proof](assets/rollbar_screen_proof.png)
 
 
 
