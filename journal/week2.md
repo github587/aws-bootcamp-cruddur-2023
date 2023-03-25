@@ -82,8 +82,6 @@ tracer = trace.get_tracer("home.activities")
       now = datetime.now(timezone.utc).astimezone()
       span.set_attribute("app.now", now.isoformat())
       
-  ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
-  ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
 
 
 ## AWS X-RAY:
@@ -100,6 +98,10 @@ Install aws sdk
 (a) add aws-xray-sd command to requiremtns.txt
 (b) on the terminal, cd to backend-flask and run
 pip install -r requirements.txt
+
+  ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+  ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+
 
 ## CLOUDWATCH
 
@@ -121,12 +123,14 @@ In homeactiivites.py, modify the run call to take in logger as a parameter and l
 5. Login to Cloidwatch logs, go to log groups, select "Cruddur" and then make sure the log traces containt the log messges added to the code.
 
 
+
+
 ## ROLLBAR
 1. Add to requirements.txt
 blinker
 rollbar
 
-install dependencies using
+install dependencies using pip install requirements.txt
 
 pip install -r requirements.txt
 
@@ -135,8 +139,15 @@ get teh access token from rollbar "Integrate sdk" section when logged in,
 
 and set gp env ROLLBAR_ACCESS_TOKEN=""
 
+impotrt rollbasr to app.py, add a method to initialize rollbar with the rollbartoken.
+add an endpoint called test to app.py  to test rollbar.
 
-Then, import rollbar packages in app.py as
+
+  ![rollbar_error_return_issue]("/assets/rollbar_error_return_issue_proof.png")
+  ![Rollbar_screen_proof]("rollbar_screen_proof/assets/.png")
+
+
+
 
 
 
