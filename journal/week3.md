@@ -14,17 +14,17 @@ we dont need a callback url, used to pass in the app.
 
 CLI imeplemetation:
 
-AWS Amplify:-
+### AWS Amplify:-
 
 1. AWS AMPlify is a SDK for common serverless librarires, is a hosting platform, way of provisioing backend serverless solution, is a low code soltuion, for hosting static website.
 2. Only way to sue cognito client side is to use AWS amplify JS library. 
 
 cd to frontend-react-js
 and run 
-npm i aws-amplify --save
+npm i aws-amplify --sa
 
 configure amplify in app.js as 
-
+```
 Amplify.configure({
   "AWS_PROJECT_REGION": process.env.REACT_AWS_PROJECT_REGION,
   "aws_cognito_identity_pool_id": process.env.REACT_APP_AWS_COGNITO_IDENTITY_POOL_ID,
@@ -40,7 +40,7 @@ Amplify.configure({
     userPoolWebClientId: process.env.REACT_APP_AWS_USER_POOLS_WEB_CLIENT_ID,   // OPTIONAL - Amazon Cognito Web Client ID (26-char alphanumeric string)
   }
 });
-
+```
 Add env variables from above to docker-compose to frontend-JS section
 
 all env variable of react app should be prefixed with REACT_APP, this is a must.
@@ -65,12 +65,13 @@ The uissue is with the account not being confirmed and at force change password 
 "localStorage.setItem("access_token", user.signInUserSession.accessToken.jwtToken)" in on submit  function of SigninPage.js
 
 To fix this, used CLI and rant eh following command
-
+```
 aws cognito-idp admin-set-user-password \
   --user-pool-id us-east-1_pv7xGuGbk \
   --username laksri \
   --password Test123! \
   --permanent
+```
 
 After running this cpmmand, the user status tuend as confirmed.
 And teh sign in worked.
@@ -103,9 +104,11 @@ recreated teh userpool since both email and user anme options were chose  for po
 Created teh user using the signup page, confimed emailaddress and noticed it on the AWS console as user created.
 
 Implement authenticatd and unathenticated requests:
-1. change the 
 
-Implement recovery page:
+
+Implemented  recovery page by making changes to onsubmit_send_code and onsubmit_confirm_code 
+
+
 
 
 
